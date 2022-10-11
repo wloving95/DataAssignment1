@@ -1,0 +1,86 @@
+{
+    box-sizing: border-box;
+    margin: 10%;
+    padding: inherit;
+}
+h1{
+  font-size: 48px;
+  font-family: 'Philosopher', sans-serif;
+  background-color: firebrick;
+  color: Black;
+  justify-content: center;
+  align-content: center;
+}
+h2{
+  font-size: 48px;
+  font-family: 'Philosopher', sans-serif;
+  background-color: firebrick;
+  color: Orange;
+  justify-content: center;
+  align-content: center;
+}
+
+
+}
+p{
+    justify-content: center;
+    align-content: center;
+    font-family: "Philosopher", sans-serif;
+    background-color: firebrick;
+    color: Orange;
+}
+
+body {
+    font-size: 24px;
+    display: block;
+    margin: auto;
+    font-family: "Philosopher", sans-serif;
+    background-color: firebrick;
+    color: Black
+}
+
+.flex-container {
+    display: inline-flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    row-gap: 40px;
+    font-size: 24px;
+    font-family: serif;
+    justify-content: flex-start;
+    align-content: flex-start;
+    text-align: center;
+    column-count: 2;
+    column-gap: 10px;
+    background-color: firebrick;
+    color: orange;
+    border: 1px black;
+    flex-basis: content;
+}
+
+.flex-container
+img src{
+  display: inline-flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  column-gap: 10px;
+  justify-content:center;
+  max-width: 200px;
+  max-height: 200px;
+  align-content: center;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 50%;
+}
+@media screen and (min-width: 601px) {
+  div.example {
+    font-size: 80px;
+}
+@media screen and (max-width: 400px) {
+      div.example {
+        font-size: 20px;
+}
